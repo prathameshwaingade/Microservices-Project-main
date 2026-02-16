@@ -157,5 +157,5 @@ Possible enhancements to extend project:
 - Secrets management
 
   ---
-  ## made by
-  prathamesh waingade
+  ## Made by:
+  Prathamesh Waingade
