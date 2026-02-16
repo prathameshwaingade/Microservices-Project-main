@@ -2,14 +2,14 @@ pipeline {
  agent any
 
  environment {
-  DOCKERHUB_CREDS = credentials('sakshipardeshi')
+  DOCKERHUB_CREDS = credentials('prathameshwaingade')
  }
 
  stages {
 
   stage('Clone Repo') {
    steps {
-    git 'https://github.com/yourrepo/microservices-project.git'
+    git 'https://github.com/Microservices-Project-main/microservices-project.git'
    }
   }
 
