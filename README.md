@@ -155,3 +155,7 @@ Possible enhancements to extend project:
 - GitOps using ArgoCD
 - Canary deployments
 - Secrets management
+
+  ---
+  ## made by
+  prathamesh waingade
