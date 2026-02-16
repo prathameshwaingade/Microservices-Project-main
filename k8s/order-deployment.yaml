@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: order
-        image: yourdockerhub/order-service:latest
+        image: prathameshwaingade/order-service:latest
         ports:
         - containerPort: 3000
