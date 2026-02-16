@@ -30,8 +30,8 @@ pipeline {
   stage('Push Images') {
    steps {
     sh 'docker login -u $DOCKERHUB_CREDS_USR -p $DOCKERHUB_CREDS_PSW'
-    sh 'docker tag user-service yourdockerhub/user-service:latest'
-    sh 'docker push yourdockerhub/user-service:latest'
+    sh 'docker tag user-service prathameshwaingade/user-service:latest'
+    sh 'docker push prathameshwaingade/user-service:latest'
    }
   }
 
